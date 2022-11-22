@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+menu a:active {
+    color: #2196F3;
+    ;
+}
+
+.contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+figcaption {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+
+figcaption p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+footer {
+    background-color: #2F303A;
+}
+.address a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.address-transparent a {
+    color: rgba(255, 255, 255, 0.6);
+}

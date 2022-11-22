@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header>
       <a class="logo" href="./index.html">WebStudio</a>
-      <!-- Zgodnie ze specyfikacją logo ma być jako link z tekstem, a nie obraz -->
       <nav>
         <ul class="menu">
           <li><a href="./index.html">Agencja</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
@@ -29,7 +35,7 @@
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button type="button">Zamów usługe</button>
       </section>
-      <section class="atuty">
+      <section class="advantages">
         <h2>Nasze atuty</h2>
         <ul>
           <li>
@@ -63,7 +69,7 @@
           </li>
         </ul>
       </section>
-      <section class="czym-sie-zajmujemy">
+      <section class="activities">
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
@@ -92,7 +98,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="team">
         <h2>Nasz zespół</h2>
         <ul>
           <li>
@@ -139,7 +145,7 @@
       </section>
     </main>
     <footer>
-      <a class="logo-footer" href="./index.html">WebStudio</a>
+      <a class="logo" href="./index.html">WebStudio</a>
       <address>
         <ul class="address">
           <li>
@@ -150,12 +156,14 @@
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >
           </li>
-          <li>
+          <li class="address-transparent">
             <a href="mailto:info@example.com" target="_blank"
               >info@example.com</a
             >
           </li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+          <li class="address-transparent">
+            <a href="tel:+48111111111">+48 111 111 111</a>
+          </li>
         </ul>
       </address>
     </footer>
