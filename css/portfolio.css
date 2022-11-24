@@ -1,15 +1,42 @@
+
+/* colors  */
+
+:root { --main-grey: #212121; 
+    --white: #FFFFFF; 
+    --light-grey: #757575;
+    --blue: #2196F3;
+    --beige-1: #EEEEEE;
+    --black: #000000;
+    --beige-2: #F5F4FA;
+    --dark-grey: #2F303A;
+    --beige-3: #ECECEC;
+}
+
+/* colors end */
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--main-grey);
+    background-color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03;
 }
 
 button {
     cursor: pointer;
 }
 
-button:hover, button:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.logo-span {
+    color: var(--black)
+}
+.logo-footer-span {
+    color: var(--white);
 }
 
 .logo {
@@ -18,7 +45,8 @@ button:hover, button:focus {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--blue);
+    text-decoration: none;
 }
 
 .menu a {
@@ -28,51 +56,82 @@ button:hover, button:focus {
     letter-spacing: 0.02em;
 }
 
-menu a:active {
-    color: #2196F3;
+a:active, a:hover, a:focus {
+    color: var(--blue);
     ;
 }
+
 
 .contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color:  var(--light-grey);
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .filter {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 
-figcaption {
+.button-filter {
+    width: 93px;
+    height: 38px;
+    left: 467px;
+    top: 226px;
+    background: var(--beige-2);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.button-filter:hover, .button-filter:focus {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+li h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
 
-figcaption p {
-    font-weight: 400;
+li p {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--light-grey);
 }
 
 footer {
     background-color: #2F303A;
 }
 .address a {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white);
 }
 .address-transparent a {
     color: rgba(255, 255, 255, 0.6);
