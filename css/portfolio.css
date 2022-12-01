@@ -19,7 +19,7 @@ body {
     color: var(--main-grey);
     background-color: #fff;
     font-size: 14px;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
 }
 
 button {
@@ -111,7 +111,7 @@ button {
 
 }
 
-.portfolioname {
+.portfolio-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
